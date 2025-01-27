@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<style>
+
+#navbar
+{
+background:tal;
+cursor:pointer;
+text-align: center;
+}
+
+#navbar ol
+{
+
+margin:auto;
+width:40%;
+margin-top:50px;
+text-align:centre;
+}
+
+#navbar ol li
+{
+list-style:none;
+
+padding:30px;
+background:#32a7eb;
+margin-left:0px;
+transition:1s;
+box-shadow: 10px 5px 10px gray;
+
+}
+
+
+#navbar ol li:hover
+{
+transform:scale(1.20); rotation(180deg);
+border-radius:15px;
+background:#F06417;
+
+}
+
+
+@keyframes scale
+{
+transfrom{scale:0;}
+to{scale:2;transform:scale(1.20);}
+}
+
+
+#myheading
+{color:#cada71 , #57b4e4 ;
+display:block;
+font-size:100px;
+width:100%;
+text-align:center;
+text-shadow:5px 6px 8px white ;
+animation:fadout 3s ease-in  alternate;
+}
+
+
+#myheading1
+{
+color:#cada71 ;
+display:block;
+font-size:60px;
+width:100%;
+text-align:center;
+text-shadow:5px 6px 8px white ;
+animation:scale 3s ease-in  alternate;
+}
+
+
+@keyframes fadout
+{
+from{opacity:0;transform:scale(1.01);}
+to{opacity:0.99;}
+}
+
+
+
+
+</style>
+
+
+
+<body>
+
+
+
+    <h1 id="myheading">Wel<u>come</u></h1>
+
+    <div id="navbar">
+       
+        <ol>
+          
+    
+    <br>
+
+    <tr>
+        <td><label for="username">Name</label></td><td><input placeholder="Full Name" id="username" type="text" pattern="{A-Za-z}" title="Enter" ></td>
+    </tr>
+
+
+    
+    <tr>
+        <td><label for="username">Mail</label></td><td><input placeholder="Mail Address" id="username" type="text" pattern="{A-Za-z}" title="Enter" ></td>
+    </tr>
+        
+
+    
+    <tr>
+        <td><label for="message"></label></td><td><textarea placeholder="Your Message Or Report "
+        row="10" cols="50"></textarea>
+        </td>
+    </tr>
+        
+    
+    <td><label for="password">Phone No</label></td><td><input Placeholder="Phone No...."
+    id="password" type="Phone No" required></td>
+    </tr>
+    <td><a href="forms.html"><input type="submit" value="Register"></a></td>
+    </tr>
+        <h1 style="text-align:center;color:white;font-family:Arial black;font-size:60px;
+        box-shadow:10px 10px 10px gray"></h1>
+    
+        </ol>
+    
+        </div>
+    
+    </div>
+    
+
+    
+    <h1 id="myheading1">Fill All Details </h1>
+    
+
+    
+</body>
+</html>
